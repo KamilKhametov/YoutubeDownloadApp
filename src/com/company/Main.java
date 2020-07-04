@@ -11,7 +11,7 @@ public class Main {
 	Scanner sc = new Scanner(System.in);
         System.out.println("Введите URL-адрес");
         StringBuffer url = new StringBuffer(sc.next());
-        url.insert(12, "ss"); // Как решили мои попытки проверки, offset и str - не имеют никого значения(всмысле, можно добавить любое число(offset) и любую букву(str)
+        url.insert(12, "ss"); // Как решили мои попытки проверки, offset(12) и str("ss") - не имеют никого значения(всмысле, можно добавить любое число(offset) и любую букву(str)
 
         Desktop desktop = Desktop.getDesktop();
         try{
